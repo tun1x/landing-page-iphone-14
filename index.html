@@ -2,10 +2,14 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>iPhone 14 Pro</title>
+    
 </head>
 <body>
     <header class="header">
@@ -19,17 +23,19 @@
                 </button>
                 <ul class="menu">
                     <li class="menu-item">
-                        <a class="link" href="#">Что нового?</a>
-                    </li>                    <li class="menu-item">
-                        <a class="link" href="#">Цвет</a>
-                    </li>                    <li class="menu-item">
-                        <a class="link" href="#">Заказать</a>
+                        <a href="#" class="menu-link">Что нового</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Цвет</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Заказать</a>
                     </li>
                 </ul>
                 <a class="logo">
-                    <img class="logo-img" src="images/logo.svg" alt="Логотип сайта" >
+                    <img src="images/logo.svg" alt="Логотип сайта" class="logo-img">
                 </a>
-                <a class="phone" href="tel:380504565656" >+38 050-456-56-56</a>
+                <a class="phone" href="tel:79275390080">+7 927-539-00-80</a>
             </nav>
         </div>
     </header>
@@ -92,6 +98,33 @@
                 </ul>
             </div>
         </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts-inner">
+                    <form class="contacts-form" action="#">
+                        <h2 class="contacts-title">ХОЧЕШЬ IPHONE 14 PRO?</h2>
+                        <input class="contacts-input" type="text" placeholder="Ваше имя">
+                        <input class="contacts-input" type="tel" placeholder="Номер телефона">
+                        <p>В ближайшее время наш менеджер свяжется с Вами</p>
+                        <button type="submit">ЗАКАЗАТЬ</button>
+                    </form>
+                    <img class="contacts-img" src="images/contact.jpg" alt="iphone">
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <a class="footer-link" href="#">Политика конфиденциальности</a>
+                <a class="logo">
+                    <img src="images/logo.svg" alt="Логотип сайта" class="logo-img">
+                </a>
+                <a class="phone" href="tel:79275390080">+7 927-539-00-80</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js">
+    </script>
 </body>
-</html>
+</html> 
